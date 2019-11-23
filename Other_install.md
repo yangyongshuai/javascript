@@ -10,7 +10,7 @@
 2. 查看镜像源`cnpm -v`
 
 ### 全局安装`webpack`
-1. 安装`webpack`: (`npm i webpack-cli webpack -g`) 
+1. 安装`webpack`: (`npm i webpack-cli webpack -g`)  最好是3.9.0的版本
 	- `-g`表示安装全局资源包
 
 ### `npm`卸载安装包
