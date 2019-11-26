@@ -44,3 +44,12 @@
 1. `vuex`:(`cnpm install vuex --save`)
 * 指定版本号安装:
 1. 版本号安装:(`cnpm install vuex @版本号`)
+
+### 安装`react`脚手架
+1. 安装`node-js`
+2. 安装`npm`或者`yarn`
+3. 淘宝镜像源 `npm config set registry http://registry.npm.taobao.org/`
+4. 全局安装 `cnpm i create-react-app -g`
+5. 局部安装创建项目文件夹 `create-react-app 文件夹名字` 
+6. 进入文件夹名称的控制台  `cd 文件夹名称`
+7. 启动项目 `npm start`
