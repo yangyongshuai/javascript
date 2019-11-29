@@ -1,6 +1,6 @@
 1. 全局装 yarn :(npm i yarn -g)  
 2. 全局装 webpack-cil webpack: (npm i webpack-cli webpack@3.9.0 -g)
-3. 全局装 webpack-dev-server : ( npm i webpack-dev-server@2.9.0 -g )
+3. 全局装 webpack-dev-server : ( npm i webpack-dev-server@2.9.0 -g )    //热更新
 4. 局部安装开发依赖: yarn add webpack@3.9.0 webpack-dev-server@2.9.0 html-webpack-plugin style-loader css-loader less less-loader file-loader url-loader babel babel-core babel-loader@7.1.5 babel-plugin-transform-runtime babel-preset-es2015 babel-preset-stage-0 vue-loader vue-template-compiler -D
 5. 安装vue: (yarn add vue vue-router -S)
 6. 创建webpack.config.js 配置
