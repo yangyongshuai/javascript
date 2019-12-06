@@ -1,9 +1,10 @@
 1. 全局装 yarn :(npm i yarn -g)  
 2. 全局装 webpack-cil webpack: (npm i webpack-cli webpack@3.9.0 -g)
 3. 全局装 webpack-dev-server : ( npm i webpack-dev-server@2.9.0 -g )    //热更新
-4. 局部安装开发依赖: yarn add webpack@3.9.0 webpack-dev-server@2.9.0 html-webpack-plugin style-loader css-loader less less-loader file-loader url-loader babel babel-core babel-loader@7.1.5 babel-plugin-transform-runtime babel-preset-es2015 babel-preset-stage-0 vue-loader vue-template-compiler -D
-5. 安装vue: (yarn add vue vue-router -S)
-6. 创建webpack.config.js 配置
+4. 局部初始化包清单:(yarn init -y)
+5. 局部安装开发依赖: yarn add webpack@3.9.0 webpack-dev-server@2.9.0 html-webpack-plugin style-loader css-loader less less-loader file-loader url-loader babel babel-core babel-loader@7.1.5 babel-plugin-transform-runtime babel-preset-es2015 babel-preset-stage-0 vue-loader vue-template-compiler -D
+6. 安装vue: (yarn add vue vue-router -S)
+7. 创建webpack.config.js 配置
 ```js
 const path = require('path');   //path来解决相对路径转绝对路径的问题
 const htmlWebpackPlugin = require('html-webpack-plugin');
@@ -116,7 +117,7 @@ module.exports={
 	],
 };
 ```
-7. 创建.babelrc 文件配置
+8. 创建.babelrc 文件配置
 ```.babelrc
 	{
 	    "plugins": ["transform-runtime"],
@@ -127,7 +128,7 @@ module.exports={
 	}
 ```
 
-8. 修改`package.json`文件
+9. 修改`package.json`文件
 ```json
 	{
 	  "name": "demo01",
